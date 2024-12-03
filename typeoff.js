@@ -1,0 +1,10 @@
+document.write("<br>"+typeof "Aman");
+document.write("<br>"+typeof ("Aman"+"Gupta"));
+document.write("<br>"+typeof 5.55);
+document.write("<br>"+typeof 55);
+document.write("<br>"+typeof(68+10));
+document.write("<br>"+typeof true);
+document.write("<br>"+typeof false);
+document.write("<br>"+typeof 1243n);
+document.write("<br>"+typeof Symbol());
+document.write("<br>"+typeof x);
