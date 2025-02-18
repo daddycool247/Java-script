@@ -1,0 +1,25 @@
+<html>
+<head>
+<title> Permutation and Combination Calculation </title>
+</head>
+<body>
+<form>
+<input type = "button" value = "nPr" onclick="alert('The value of '+n+'P'+r+'is '+fact(n)/fact(n-r));">
+<input type = "button" value = "nCr" onclick="alert('The value of '+n+'C'+r+'is '+fact(n)/(fact(r)*fact(n-r)));">
+</form>
+<script>
+let n = parseInt(window.prompt("Enter the value for n: ","0"));
+let r = parseInt(window.prompt("Enter the value for r: ","0"));
+let f=1;
+function fact(n)
+{
+	f=1;
+	for(i=1;i<=n;i++)
+	{
+		f=f*i;
+	}
+	return f;
+}
+</script>
+</body>
+</html>

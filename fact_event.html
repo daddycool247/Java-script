@@ -1,0 +1,22 @@
+<html>
+<head>
+<title> Factorial Calculation </title>
+</head>
+<body> Calculate the factorial value of the integer
+<form>
+<input type = "button" value="Factorial" onclick="fact(n);">
+</form>
+<script>
+let n = parseInt(window.prompt("Enter an integer value: ","0"));
+let prod=1;
+function fact(n)
+{
+	for(i=1;i<=n;i++)
+	{
+		prod=prod*i;
+	}
+	document.write("The factorial value of the number "+n+" = "+prod);
+}
+</script>
+</body>
+</html>
